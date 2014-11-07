@@ -50,7 +50,7 @@ int main(){
 		int num=atoi(string);
 		printf("%s",string);
 		if(num==0){
-			printf("please enter a valid number \n");
+			printf( "\x1b[31m please enter a non zero value \x1b[0m \n");
 			continue; 
 		}
 		if(!head->data){
@@ -67,6 +67,7 @@ int main(){
 		printLL(head); 
 	}
 
-	printf("Exited Linked List Program");
+//	printf("Exited Linked List Program");
+	printf( "\x1b[31m Exited Linked List Program \x1b[0m \n");
 	return 0;
 }

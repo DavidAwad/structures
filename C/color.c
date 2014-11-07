@@ -13,7 +13,7 @@ int main() {
 
 
  printf( "\x1b[31m     This text is RED!  \x1b[0m \n");
- //printf(ANSI_COLOR_GREEN   "This text is GREEN!"   ANSI_COLOR_RESET "\n");
+ //printf(ANSI_COLOR_RED   "This text is RED!"   ANSI_COLOR_RESET "\n");
 
 
 }
