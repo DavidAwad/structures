@@ -2,9 +2,6 @@
 
 
 
-###This is a small repo of code examples in a bunch of different languages simply to practice new ways to do things in multiple languages.
+###This is a small repo of code examples in a bunch of different languages simply to practice doing things in multiple languages. There are examples of simple multithreading in C to implementing data structures in Python. 
 
 
-####added Ruby! my First time ever using it. I like it a lot though!
-
-####added some simple multithreaded C programs as well. Well commented and very easy to understand
