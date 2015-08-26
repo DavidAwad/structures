@@ -1,3 +1,29 @@
+how to use the binary search tree. 
+
+```python 
+r = Node(3)
+binary_insert(r, Node(7))
+binary_insert(r, Node(1))
+binary_insert(r, Node(5))
+
+print "in order:"
+in_order_print(r)
+
+print "pre order"
+pre_order_print(r)
+
+in order:
+1
+3
+5
+7
+pre order
+3
+1
+5
+7
+```
+
 for graph.py here's some example usage. 
 
 ```python 
