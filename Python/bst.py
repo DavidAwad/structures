@@ -32,7 +32,3 @@ def pre_order_print(root):
     print root.data
     pre_order_print(root.l_child)
     pre_order_print(root.r_child)    
-
-r = Node(3)
-binary_insert(r, Node(7))
-binary_insert(r, Node(1))
