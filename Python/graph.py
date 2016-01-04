@@ -5,9 +5,9 @@ class Graph(object):
     """ Graph data structure, undirected by default. """
 
     def __init__(self, connections, directed=False):
-        self._graph = defaultdict(set)
-        self._directed = directed
-        self.add_connections(connections)
+        self._graph = defaultdict(set) # default dict comes with a default value for every entry used. 
+        self._directed = directed bool # bool to set for directedness, false by default
+        self.add_connections(connections) # connections is usually an array. 
 
     def add_connections(self, connections):
         """ Add connections (list of tuple pairs) to graph """
